@@ -1,0 +1,16 @@
+node_modules
+dist
+.output
+.vercel
+.data
+data
+artifacts
+attachments
+screenshots
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+.pglite
+tmp
