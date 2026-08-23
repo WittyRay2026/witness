@@ -1,3 +1,6 @@
-export async function requireUserId(_token?: string): Promise<string> {
+export async function getSessionUser(): Promise<{ id: string } | null> {
+  return { id: "guest" };
+}
+export async function requireUserId(): Promise<string> {
   return "guest";
 }

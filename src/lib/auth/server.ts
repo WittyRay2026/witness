@@ -1,3 +1,3 @@
 export const auth = {
-  handler: async (_req: Request) => new Response("auth disabled", { status: 404 }),
+  handler: async (_request: Request) => new Response("auth off", { status: 404 }),
 };
